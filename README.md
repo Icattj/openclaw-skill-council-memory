@@ -1,3 +1,7 @@
+# ---
+
+> OpenClaw AI Agent Skill
+
 ---
 name: council-memory
 description: "Persistent memory layer for Council Room — reads, writes, and searches agent memory across sessions. Use when saving important decisions/facts to long-term memory, recalling past sessions, updating MEMORY.md or daily notes, searching the Obsidian vault for context, or injecting memory into agent prompts so agents never forget who Lucy is or what DataFlow is building. Replaces the goldfish memory problem."
@@ -87,3 +91,13 @@ See `references/schema.md` for full schema. Key categories:
 - `decisions` — logged decisions with date + rationale  
 - `kpis` — current metrics (OCR accuracy, bookkeepers found, etc.)
 - `lessons` — what agents learned from past sessions
+
+## Installation
+
+```bash
+cp -r council-memory/ ~/.openclaw/workspace/skills/council-memory/
+```
+
+## License
+
+MIT © [Sentra Technology](https://github.com/Icattj)
